@@ -156,6 +156,7 @@ var Philo = function(id) {
 
         return QHsm.unhandled();
     }, QHsm.top, function() {
+        displayStat(id, 'thinking');
         QF.arm(timeoutEvent, THINK_TIME, false);
         return QHsm.handled();
     });
