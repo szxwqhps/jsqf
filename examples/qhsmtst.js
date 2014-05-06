@@ -1,7 +1,12 @@
 /**
- * Created by xiawanqiang on 14-5-1.
+ * Copyright (c) 2014, Wanqiang Xia. All rights reserved.
+ *
+ * This program is open source software: you can redistribute it and/or
+ * modify it under the terms of the BSD 2-Clause license.
+ *
+ * This program is a javascript implementation of QP framework. You can visit QP
+ * website (http://www.state-machine.com) for more information
  */
-
 
 var	QF = require('../lib/QF'),
     QEvent = require('../lib/QHsm').QEvent,

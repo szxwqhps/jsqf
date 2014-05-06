@@ -1,4 +1,15 @@
 /**
+ * Copyright (c) 2014, Wanqiang Xia. All rights reserved.
+ *
+ * This program is open source software: you can redistribute it and/or
+ * modify it under the terms of the BSD 2-Clause license.
+ *
+ * This program is a javascript implementation of QP framework. You can visit QP
+ * website (http://www.state-machine.com) for more information
+ */
+
+
+/**
  * dpp, dinner of philosophy problem
  * Created by xiawanqiang on 14-5-1.
  */
@@ -15,8 +26,8 @@ var qhsm = require('../lib/QHsm'),
     util = require('util'),
 
     PHILO_NUMBER = 5,
-    THINK_TIME = 3000,
-    EAT_TIME = 2000,
+    THINK_TIME = 2000,
+    EAT_TIME = 1500,
     DPP_DONE = 'dpp:done',
     DPP_HUNGRY = 'dpp:hungry',
     DPP_EAT = 'dpp:eat',
